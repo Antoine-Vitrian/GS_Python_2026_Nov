@@ -37,11 +37,3 @@ O integrante informou que este foi o prompt utilizado para definir a solução:
 ### Contexto que acompanhou o prompt
 
 Segundo o integrante, o prompt foi enviado junto com um anexo contendo as instruções do trabalho e o pedido para criar uma interface web para a solução. As instruções da atividade abordavam a relação com a CitizenTech, a implementação e análise de algoritmos (incluindo memoização, tabulação e grafos), a qualidade do código e os itens exigidos para a entrega.
-
-## 2. Prompt para adequar a documentação à avaliação
-
-O pedido seguinte veio acompanhado dos critérios de avaliação e entrega enviados pelo professor. A solicitação foi:
-
-> a partir disso que eu tema ndei que são parte da avaliação do professor altere o que for necessário ou seja o prompts md e coloque a descriçaõ do projeto que eu coloquei no topo + o que era necessário grafos memoização e mais um
-
-Esse pedido orientou a organização da ficha, das funcionalidades e da explicação de memoização, tabulação e grafos no `README.md`, além do registro dos prompts nesta página.
