@@ -1,13 +1,47 @@
 # Prompts de IA utilizados
 
-Este arquivo registra o pedido de IA feito nesta conversa para revisar a documentação da entrega. Ele não representa prompts eventualmente usados para criar a versão original do código, que não foram fornecidos aqui.
+## 1. Prompt de definição do projeto
 
-## Revisão da entrega
+O integrante informou que este foi o prompt utilizado para definir a solução:
 
-O pedido veio acompanhado dos critérios de avaliação e entrega enviados pelo professor (conceitos de memoização, tabulação e grafos; relação com a CitizenTech; correção, análise de eficiência e qualidade do código; ficha, integrantes, descrição dos algoritmos, dados simulados e registro de prompts). A solicitação feita foi:
+> Objetivo: Criar uma plataforma que ajude famílias a cuidar de idosos e pessoas dependentes, reduzindo a sobrecarga dos cuidadores e facilitando o acesso a redes de apoio.
+>
+> 1. Distribuição inteligente de responsabilidades
+>
+> O sistema organiza e distribui tarefas entre familiares, considerando a disponibilidade e a carga de trabalho de cada pessoa, evitando que apenas um integrante assuma todos os cuidados.
+>
+> 2. Identificação de sobrecarga dos cuidadores
+>
+> Por meio de questionários periódicos e análise da divisão de tarefas, a plataforma identifica possíveis situações de sobrecarga e sugere maneiras de redistribuir responsabilidades.
+>
+> 3. Rede de apoio social
+>
+> Conecta famílias a instituições, serviços públicos, ONGs e organizações comunitárias que possam oferecer orientação e assistência, especialmente para quem não possui uma rede familiar estruturada.
+>
+> 4. Agenda compartilhada e lembretes inteligentes
+>
+> Centraliza consultas, exames, medicamentos prescritos e compromissos, notificando os responsáveis e permitindo que outros familiares assumam atividades quando necessário.
+>
+> 5. Acompanhamento do cuidado
+>
+> Permite registrar atividades realizadas, acompanhar necessidades da pessoa cuidada e compartilhar informações importantes com os familiares autorizados, garantindo maior continuidade e organização.
+>
+> 6. Comunicação e integração com WhatsApp
+>
+> Permite receber lembretes, confirmar responsabilidades e compartilhar atualizações pelo WhatsApp, tornando a plataforma acessível mesmo para pessoas com pouca familiaridade com tecnologia.
+>
+> 7. Monitoramento do impacto social
+>
+> Apresenta indicadores sobre a distribuição das tarefas, participação dos familiares e evolução da sobrecarga relatada, permitindo avaliar se a plataforma realmente está melhorando a rotina das famílias.
+
+### Contexto que acompanhou o prompt
+
+Segundo o integrante, o prompt foi enviado junto com um anexo contendo as instruções do trabalho e o pedido para criar uma interface web para a solução. As instruções da atividade abordavam a relação com a CitizenTech, a implementação e análise de algoritmos (incluindo memoização, tabulação e grafos), a qualidade do código e os itens exigidos para a entrega.
+
+## 2. Prompt para adequar a documentação à avaliação
+
+O pedido seguinte veio acompanhado dos critérios de avaliação e entrega enviados pelo professor. A solicitação foi:
 
 > a partir disso que eu tema ndei que são parte da avaliação do professor altere o que for necessário ou seja o prompts md e coloque a descriçaõ do projeto que eu coloquei no topo + o que era necessário grafos memoização e mais um
 
-O trabalho realizado a partir desse pedido foi organizar a descrição do projeto e os algoritmos no `README.md`, registrar este prompt e usar `collections.deque` na fila da busca em largura.
-
-Se outros prompts de IA foram usados para implementar o projeto originalmente, acrescentem-nos aqui antes de enviar a entrega.
+Esse pedido orientou a organização da ficha, das funcionalidades e da explicação de memoização, tabulação e grafos no `README.md`, além do registro dos prompts nesta página.
