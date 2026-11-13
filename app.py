@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import mimetypes
+from collections import deque
 from functools import lru_cache
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -224,11 +225,11 @@ def distribuir_com_tabulacao(familiares: list[dict[str, Any]], tarefas: list[dic
 def buscar_caminhos_de_apoio(necessidade: str) -> list[dict[str, Any]]:
     if necessidade not in NOMES_NECESSIDADES:
         raise ValueError("Escolha uma necessidade disponível para buscar apoio.")
-    fila = [("familia", ["familia"])]
+    fila = deque([("familia", ["familia"])])
     visitados = {"familia"}
     caminhos = []
     while fila:
-        no, caminho = fila.pop(0)
+        no, caminho = fila.popleft()
         if no not in GRAFO_APOIO:
             continue
         for vizinho in GRAFO_APOIO[no]:
