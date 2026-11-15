@@ -20,7 +20,6 @@ são simulados.
 - **O que cada parte faz:** a interface apresenta a rotina e permite interagir
   com tarefas, agenda e busca de apoio; a aplicação Python fornece os dados,
   calcula a distribuição e percorre um grafo de serviços.
-- **Link do repositório:** a preencher.
 - **Indicador de impacto:** acompanhar a distribuição das tarefas entre os
   familiares, a participação de cada pessoa e as respostas de bem-estar ao
   longo do tempo. No protótipo, esses dados são demonstrativos e não comprovam
