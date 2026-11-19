@@ -13,7 +13,7 @@
 
 - 562573 — Victor Antonio Teixeira da Silva
 - 566244 — Samuel de Oliveira da Silva
-- 566074 — Cristian Belasco Arancibia
+- 565710 — Cristian Belasco Arancibia
 - 562613 — Lucas Oliveira de Mendonça Almeida
 - 562608 — João Lucas Ferreira dos Santos
 
